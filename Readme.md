@@ -5,7 +5,8 @@ This project uses the following environment variables:
 
 | Name                          | Description                         | Default Value                                  |
 | ----------------------------- | ------------------------------------| -----------------------------------------------|
-|CORS           | Cors accepted values            | "*"      |
+|DB_URL           | MongoDB compass url            | mongodb+srv://<username>:<password>@<clustername>.11liq14.mongodb.net/<database>      |
+|PORT           | Default server port           | 5000      |
 |CORS           | Cors accepted values            | "*"      |
 
 
@@ -37,11 +38,3 @@ GET: http://localhost:5000/users
 GET: http://localhost:5000/users/:id
 DELETE: http://localhost:5000/users/:id
 PATCH: http://localhost:5000/users/:id
-
-# Environment Variables
-Please refer to example.env for the environment variable
-
-Description:
-PORT=5000
-DB_URL ---> url of MongoDb, use a MongoDB compass url
-EXAMPlE_FORMAT_OF_DB_URL = DB_URL=mongodb+srv://<username>:<password>@<clustername>.11liq14.mongodb.net/<database>
