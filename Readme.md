@@ -4,9 +4,9 @@
 This project uses the following environment variables:
 
 | Name                          | Description                         | Default Value                                  |
-| PORT                          | prject default local port           | 5000 |
+| PORT                          | prject default local port           | 5000 
 | DB_URL                        | MongoDB URL of the database | mongodb+srv://<username>:<password>@<clustername>.11liq14.mongodb.net/<database>
-| CORS                           | Cors accepted values                | "*" |
+| CORS                           | Cors accepted values                | "*" 
 
 
 # Pre-requisites
