@@ -5,7 +5,7 @@ This project uses the following environment variables:
 
 | Name                          | Description                         | Default Value                                  |
 | ----------------------------- | ------------------------------------| -----------------------------------------------|
-|DB_URL           | MongoDB compass url            | mongodb+srv://<username>:<password>@<clustername>.11liq14.mongodb.net/<database>      |
+|DB_URL           | MongoDB compass url            |       |
 |PORT           | Default server port           | 5000      |
 |CORS           | Cors accepted values            | "*"      |
 
